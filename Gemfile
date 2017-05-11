@@ -28,7 +28,8 @@ gem 'jquery-rails'
 gem 'turbolinks', '~> 5'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.5'
-gem "paperclip", "~> 5.0.0"
+gem "paperclip", '~> 4.2'
+gem "paperclip-dropbox", ">= 1.1.7"
 group :production do
   gem 'pg', '~> 0.20.0'
   gem 'rails_12factor'
